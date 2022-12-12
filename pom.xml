@@ -5,11 +5,11 @@
   <groupId>com.threerings</groupId>
   <artifactId>narya-parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.18-SNAPSHOT</version>
+  <version>2.0.0</version>
 
   <name>Narya Parent</name>
   <description>Facilities for making networked multiplayer games.</description>
-  <url>http://github.com/threerings/narya/</url>
+  <url>https://github.com/threerings/narya/</url>
   <issueManagement>
     <url>https://github.com/threerings/narya/issues</url>
   </issueManagement>
@@ -51,7 +51,8 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.13.0</version>
           <configuration>
-            <release>10</release>
+            <source>1.8</source>
+            <target>1.8</target>
             <fork>true</fork>
             <showDeprecation>true</showDeprecation>
             <showWarnings>true</showWarnings>
